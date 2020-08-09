@@ -1,0 +1,266 @@
+@media (max-width: 767.98px) {
+
+  /*=====================================static-media-start=======================================*/
+  .details-share {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details-share {
+    ul {
+      &:first-child {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  /*=====================================static-media-end=======================================*/
+  /*=====================================history-media-start=======================================*/
+  .history-cnt {
+    padding-bottom: 0;
+  }
+
+  /*=====================================history-media-end=======================================*/
+  /*====================================fittings-description-media-start======================================*/
+  .fittings-description-text {
+    p {
+      span {
+        float: unset;
+        margin: 0 auto 20px;
+
+        i {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  /*====================================fittings-description-media-end======================================*/
+  /*=====================================building-photos-media-start=======================================*/
+  .building-slider {
+    .slick-list {
+      width: 100%;
+    }
+  }
+
+  /*=====================================building-photos-media-end=======================================*/
+  /*=====================================photo-gallery-media-start=======================================*/
+  .gallery-block {
+    width: 50%;
+  }
+
+  /*=====================================photo-gallery-media-end=======================================*/
+  .quote,
+  .link-list {
+    a {
+      font-size: 18px;
+    }
+  }
+
+  /*=====================================contact-details-media-start=======================================*/
+  .team-member-list {
+    margin: -10px;
+  }
+
+  .member-block {
+    padding: 10px;
+  }
+
+  .member-image {
+    margin-right: 5px;
+  }
+
+  /*=====================================contact-details-media-end=======================================*/
+  /*=======================================Catalog-media-start=================================================*/
+  .catalog-cnt {
+    padding: 30px 0;
+  }
+
+  .products {
+    margin: 30px 0;
+  }
+
+  .title {
+    font-size: 37px;
+  }
+
+  .product-type-main {
+    padding: 25px 30px;
+  }
+
+  .static-cnt {
+    h4 {
+      font-size: 20px;
+    }
+  }
+
+  .about-CEO-text {
+    margin-top: 20px;
+  }
+
+  .text-part-left {
+    margin-right: 30px;
+  }
+
+  /*=======================================Catalog-media-end==================================================*/
+  /*=====================================Production-media-start===============================================*/
+  .production-left-part {
+    width: 100%;
+  }
+
+  .production-right-part {
+    width: 100%;
+    margin-top: 30px;
+
+    .contacts {
+      text-align: center;
+
+      button {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .last-news {
+    width: 50%;
+
+    a {
+      margin: 0 auto;
+    }
+  }
+
+  .news-part {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /*======================================Production-media-end================================================*/
+  /*======================================about-company-media-start================================================*/
+  .about-company-slider-part,
+  .about-company-advantages-part {
+    width: 100%;
+  }
+
+  .about-company-slider-part {
+    h3 {
+      margin: 30px 0;
+    }
+  }
+
+  .advantage-list {
+    ul {
+      li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .advantage-text {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .advantage-img {
+    justify-content: flex-start;
+
+    strong {
+      width: unset;
+    }
+
+    .advantage-photo {
+      margin-left: 20px;
+    }
+  }
+
+  .big-advantage {
+    padding: 30px 0;
+  }
+
+  .company-description {
+    flex-direction: column;
+
+    .company-description-left-part,
+    .company-description-right-part {
+      width: 100%;
+    }
+  }
+
+  .quotation {
+    width: 100%;
+    position: unset;
+
+    p {
+      text-align: center;
+    }
+  }
+
+  /*======================================about-company-media-end================================================*/
+
+  /*====================================partners-media-start===========================================*/
+
+  .partners-cnt {
+    .partner-title-slider {
+
+      flex-direction: column;
+      
+      .partner-title {
+        width: 100%;
+        padding: 10px 0;
+      }
+
+      .partner-slider {
+        width: 100%;
+        padding: 0;
+
+        .partner-block {
+          @include wh(100%, 205px)
+        }
+      }
+    }
+  }
+
+  /*====================================partners-media-end===========================================*/
+
+  /*====================================last-events-media-start===========================================*/
+
+  .last-events-title-news {
+    flex-direction: column;
+  }
+  
+  /*====================================last-events-media-end===========================================*/
+
+  /*====================================leave-contacts-media-start=========================================*/
+  .leave-contacts-form {
+    flex-wrap: wrap;
+  }
+
+  .leave-contacts-form-left {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .leave-contacts-form-right {
+    width: 100%;
+
+    .information {
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  /*====================================leave-contacts-media-end===========================================*/
+
+  /*====================================team-photo-media-start=========================================*/
+
+  .team-photo-img {
+    height: 330px;
+  }
+
+  /*====================================team-photo-media-end=========================================*/
+}

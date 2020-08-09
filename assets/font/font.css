@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'futura';
+    src: url("futura/FuturaPTMedium.otf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura';
+    src: url("futura/FuturaPTDemi.otf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura';
+    src: url("futura/FuturaPTBold.otf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura';
+    src: url("futura/FuturaPTExtraBold.otf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("opensans/OpenSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url("opensans/OpenSans-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("opensans/OpenSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url("opensans/OpenSans-SemiBold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}

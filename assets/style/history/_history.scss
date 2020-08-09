@@ -1,0 +1,200 @@
+/*=====================================history-style-start=======================================*/
+
+.history-cnt {
+  padding-top: 60px;
+  .title {
+    margin-bottom: 40px;
+  }
+}
+
+.history-image {
+  @include wh(100%, 510px);
+}
+
+.crane-img {
+  @include bgParameters(cover);
+  @include wh100;
+}
+
+/*=====================================history-style-end=======================================*/
+/*=====================================fittings-description-style-start=======================================*/
+
+.fittings-description-cnt {
+  padding: 40px 0 85px 0;
+  border-top: 1px solid rgb(207, 216, 220);
+  h4 {
+    margin-bottom: 35px;
+  }
+}
+
+.fittings-description-text {
+  p {
+    @include fontOpenSans(16px, "OpenSans");
+    color: rgb(33, 33, 33);
+    line-height: 1.875;
+    &:last-child {
+      margin-top: 60px;
+    }
+    a {
+      color: $staticColor;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    span {
+      font-size: 13px;
+      text-align: center;
+      @include maxWidth(390px);
+      float: right;
+      margin-left: 55px;
+      i {
+        width: 400px;
+      }
+      img {
+        @include wh(100%, 340px);
+      }
+    }
+  }
+  p + p {
+    margin-top: 30px;
+  }
+}
+
+/*=====================================fittings-description-style-end=======================================*/
+/*=====================================building-photos-style-start=======================================*/
+
+.building-photos-cnt {
+  padding: 50px 0;
+  border-top: 1px solid rgb(207, 216, 220);
+  h4 {
+    margin-bottom: 30px;
+  }
+}
+
+.building-slider {
+  .slick-prev {
+    left: -6%;
+    padding-left: 6px;
+  }
+  .slick-next {
+    right: -6%;
+    padding-right: 6px;
+  }
+}
+
+.building-slider-block {
+  @include wh(100%, 520px);
+}
+
+.building-slider-block-img {
+  @include wh100;
+  @include bgParameters(cover);
+  border-radius: 5px;
+}
+
+.building-text {
+  @include fontOpenSans(16px, "OpenSans-Italic");
+  color: rgb(33, 33, 33);
+  line-height: 1.875;
+  margin-top: 35px;
+}
+
+/*=====================================building-photos-style-end=======================================*/
+/*=====================================photo-gallery-style-start=======================================*/
+
+.photo-gallery-cnt {
+  padding: 50px 0 63px;
+  border-top: 1px solid rgb(207, 216, 220);
+  h4 {
+    margin-bottom: 40px;
+  }
+  .gallery-list {
+    margin: -5px;
+  }
+}
+
+.gallery-block {
+  width: 25%;
+  padding: 5px;
+}
+
+.gallery-block-content {
+  @include wh(100%, 250px);
+}
+
+.gallery-block-img {
+  @include wh100;
+  img {
+    @include wh100;
+  }
+}
+
+/*=====================================photo-gallery-style-end=======================================*/
+/*=====================================list-example-style-start=======================================*/
+
+.list-example-cnt {
+  padding: 50px 0 80px;
+  border-top: 1px solid rgb(207, 216, 220);
+  h4 {
+    margin-bottom: 40px;
+  }
+  .link-list {
+    a {
+      @include fontFutura(20px, 600);
+      color: rgb(33, 33, 33);
+      text-decoration: underline;
+      line-height: 1.5;
+      display: block;
+      position: relative;
+      padding-left: 55px;
+      margin-top: 25px;
+      &::before {
+        content: "";
+        position: absolute;
+        background-color: $staticColor;
+        @include wh(30px, 4px);
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+      }
+      &:hover {
+        color: $staticColor;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.example-lists {
+  ol {
+    counter-reset: section;
+    padding-bottom: 50px;
+    margin: 40px 0 50px;
+    border-bottom: 1px solid rgb(207, 216, 220);
+    li {
+      position: relative;
+      &::before {
+        font-size: 20px;
+        font-weight: 700;
+        counter-increment: section;
+        content: counter(section) ".";
+        position: absolute;
+        left: 0;
+        color: $staticColor;
+        transform: translateY(-10%);
+      }
+    }
+    li + li {
+      margin-top: 25px;
+    }
+  }
+}
+
+.example-lists {
+  ul {
+    padding-bottom: 50px;
+    margin: 40px 0 50px;
+    border-bottom: 1px solid rgb(207, 216, 220);
+  }
+}
+/*=====================================list-example-style-end=======================================*/

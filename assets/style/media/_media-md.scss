@@ -1,0 +1,273 @@
+@media (max-width: 991.98px) {
+
+  /*====================================static-media-start======================================*/
+  .extra-container {
+    padding: 0;
+  }
+
+  .title {
+    h3 {
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+
+  .static-cnt {
+    padding: 30px 0;
+
+    h3 {
+      font-size: 35px;
+    }
+
+    h4 {
+      font-size: 18px;
+    }
+  }
+
+  /*====================================static-media-end======================================*/
+  /*====================================fittings-description-media-start======================================*/
+  .fittings-description-text {
+    p {
+      &:last-child {
+        margin-top: 30px;
+      }
+
+      span {
+        margin-left: 0;
+
+        img {
+          height: 330px;
+        }
+      }
+    }
+  }
+
+  /*====================================fittings-description-media-end======================================*/
+  /*=====================================building-photos-media-start=======================================*/
+  .building-slider {
+    .slick-list {
+      width: 660px;
+      margin: 0 auto;
+    }
+  }
+
+  .building-slider {
+    .slick-prev {
+      left: -3.3%;
+    }
+  }
+
+  .building-slider {
+    .slick-next {
+      right: -3.3%;
+    }
+  }
+
+  .building-slider-block {
+    height: 420px;
+  }
+
+  .building-text {
+    text-align: center;
+  }
+
+  /*=====================================building-photos-media-end=======================================*/
+  /*=====================================photo-gallery-media-start=======================================*/
+  .gallery-block {
+    width: 33.333333%;
+  }
+
+  /*=====================================photo-gallery-media-end=======================================*/
+  /*=====================================contact-details-media-start=======================================*/
+  .contacts-team {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .contacts-team {
+    .contacts {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  .team-member-list {
+    max-width: 100%;
+  }
+
+  .member-image {
+    margin-right: 30px;
+  }
+
+  /*=====================================contact-details-media-end=======================================*/
+  /*=======================================Catalog-media-start=================================================*/
+  .products {
+    margin: 40px 0;
+  }
+
+  .product-type {
+    width: 100%;
+    padding: 0 0 15px 0;
+    height: auto;
+  }
+
+  .types {
+    ul {
+      li {
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .contacts-for-order {
+    padding: 20px;
+  }
+
+  .about-CEO-text {
+    margin-top: 30px;
+  }
+
+  /*=======================================Catalog-media-end==================================================*/
+  /*=====================================Production-media-start===============================================*/
+  .production-cnt {
+    .details-share {
+      padding: 20px 0;
+
+      p {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+
+      .production-left-part {
+        .production-information-text {
+          margin-top: 25px;
+
+          .title {
+            font-size: 35px;
+          }
+
+          .quality {
+            margin: 20px 0;
+          }
+
+          .production-list {
+            h5 {
+              font-size: 18px;
+              margin-bottom: 15px;
+            }
+
+            .production-types {
+              h4 {
+                margin: 30px 0 20px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .list {
+    ul {
+      li+li {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .link-block {
+    p {
+      &::before {
+        top: 18%;
+      }
+    }
+  }
+
+
+}
+
+/*======================================Production-media-end================================================*/
+/*======================================about-company-media-start================================================*/
+.about-company-slider-part {
+  width: 65%;
+}
+
+.about-company-advantages-part {
+  width: 35%;
+}
+
+.event-slider {
+  margin: 40px -10px 0 -10px;
+}
+
+.event-block {
+  padding: 0 10px;
+}
+
+.event-block-content {
+  &::before {
+    width: 90px;
+  }
+}
+
+.about-company-cnt {
+  h3 {
+    font-size: 33px;
+  }
+}
+
+.advantage-list {
+  ul {
+    li {
+      padding: 6px 0;
+    }
+  }
+}
+
+.advantage-img {
+  strong {
+    font-size: 18px;
+  }
+}
+
+.company-photo-block {
+  height: 328px;
+}
+
+.big-advantage {
+  margin-top: 25px;
+}
+
+/*======================================about-company-media-end================================================*/
+/*======================================partners-media-start================================================*/
+
+.partner-block {
+  width: 100%;
+}
+
+/*======================================partners-media-end================================================*/
+/*======================================leave-contacts-media-start================================================*/
+.leave-contacts-form-left {
+  width: 60%;
+}
+
+.contact-input {
+  width: 50%;
+  padding: 7px 7px;
+
+  label {
+    input {
+      padding: 15px 0 15px 15px;
+    }
+  }
+}
+
+.leave-contacts-form-right {
+  width: 40%;
+}
+
+.leave-message {
+  width: 100%;
+}
+
+/*======================================leave-contacts-media-end================================================*/

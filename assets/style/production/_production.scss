@@ -1,0 +1,236 @@
+/*=====================================Production-style-start===============================================*/
+.production-cnt {
+  padding: 80px 0 100px 0;
+
+  .details-share {
+    width: 100%;
+    padding: 35px 0;
+
+    ul {
+      li {
+        &:first-child {
+          margin-right: 15px;
+        }
+
+        &::before {
+          background-color: #4caf50;
+        }
+
+        a {
+          text-decoration: underline;
+          color: rgb(33, 33, 33);
+        }
+      }
+
+      li+li+li {
+        margin-left: 20px;
+      }
+    }
+
+    p {
+      @include fontOpenSans(14px, "OpenSans");
+      color: rgb(96, 125, 139);
+      margin-right: 60px;
+    }
+  }
+
+  .quote {
+    margin-top: 45px;
+  }
+}
+
+.production {
+  h5 {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 40px;
+  }
+}
+
+.production-left-part {
+  width: 74%;
+
+  .production-img-part {
+    border-bottom: 1px solid rgb(207, 216, 220);
+
+    .production-img {
+      @include wh(100%, 350px);
+
+      .main-img {
+        @include bgParameters(cover);
+        @include wh100;
+      }
+    }
+  }
+
+  .production-information-text {
+    margin-top: 50px;
+
+    .quality {
+      margin: 50px 0;
+
+      p {
+        @include fontOpenSans(16px, "OpenSans");
+        line-height: 1.875;
+      }
+    }
+
+    .production-list {
+      .production-types {
+        li {
+          font-family: "OpenSans";
+          position: relative;
+          padding-left: 30px;
+
+          &::before {
+            content: "";
+            position: absolute;
+            background-color: rgb(18, 74, 149);
+            @include wh(10px, 10px);
+            top: 25%;
+            left: 0;
+            transform: translateY(-50%);
+          }
+        }
+
+        li+li {
+          margin-top: 35px;
+        }
+      }
+
+      h4 {
+        margin: 55px 0 35px 0;
+      }
+    }
+  }
+}
+
+.production-right-part {
+  width: 23%;
+
+  .link-list {
+    &:hover {
+      background-color: white;
+      border-color: rgb(207, 216, 220);
+    }
+
+    &:hover p {
+      color: rgb(18, 74, 149);
+      text-decoration: none;
+    }
+
+    a {
+      width: 100%;
+
+      .link-block {
+        @include wh(100%, 80px);
+        padding-left: 30px;
+        border: 1px solid rgb(250, 250, 250);
+        background-color: rgb(250, 250, 250);
+
+        p {
+          @include fontFutura(20px, 600);
+          color: rgb(33, 33, 33);
+          text-decoration: underline;
+          line-height: 1.5;
+          padding-left: 55px;
+          position: relative;
+
+          &::before {
+            content: "";
+            position: absolute;
+            background-color: rgb(18, 74, 149);
+            @include wh(30px, 4px);
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+          }
+        }
+      }
+    }
+
+    a+a {
+      margin-top: 10px;
+    }
+  }
+}
+
+.news {
+  width: 100%;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(207, 216, 220);
+
+  h5 {
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+
+  .news-main {
+    .news-part {
+      .last-news {
+        width: 100%;
+        margin-bottom: 20px;
+
+        a {
+          .news-pic {
+            @include wh(40%, 80px);
+
+            .bg-news {
+              @include wh100;
+              @include bgParameters(contain);
+            }
+          }
+
+          .news-title {
+            width: 60%;
+            padding-left: 18px;
+
+            i {
+              @include fontOpenSans(14px, "OpenSans");
+              color: rgb(96, 125, 139);
+              line-height: 1.786;
+            }
+
+            p {
+              @include fontFutura(15px, 600);
+              color: black;
+              line-height: 1.7;
+            }
+          }
+        }
+      }
+    }
+
+    .all-news {
+      width: 100%;
+
+      button {
+        border: 2px solid rgb(207, 216, 220);
+        background-color: rgb(255, 255, 255);
+        @include wh(100%, 56px);
+        @include fontOpenSans(14px, "OpenSans-Bold");
+      }
+    }
+  }
+}
+
+.production-right-part {
+  .contacts {
+    padding-left: 0;
+
+    ul {
+      margin: 40px 0 30px;
+
+      li {
+        padding-left: 0;
+      }
+
+      li+li {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+/*======================================Production-style-end================================================*/

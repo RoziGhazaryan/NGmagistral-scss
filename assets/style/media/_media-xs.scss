@@ -1,0 +1,363 @@
+@media (max-width: 575.98px) {
+
+  /*====================================static-media-start======================================*/
+  .title {
+    h3 {
+      font-size: 30px;
+    }
+  }
+
+  .static-cnt {
+    h4 {
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+
+  .fittings-description-text {
+    p {
+      text-align: center;
+    }
+  }
+
+  /*====================================static-media-end======================================*/
+  /*====================================history-media-start======================================*/
+  .details-share {
+    ul {
+      &:first-child {
+        li+li {
+          margin-left: 20px;
+        }
+      }
+
+      &::nth-child(2) {
+        li {
+          &:first-child {
+            margin-right: 5px;
+          }
+        }
+
+        li+li+li {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  /*====================================history-media-end======================================*/
+  /*=====================================photo-gallery-media-start=======================================*/
+  .gallery-block {
+    width: 100%;
+  }
+
+  /*=====================================photo-gallery-media-end=======================================*/
+  /*=====================================list-example-media-start=======================================*/
+  .quote {
+    font-size: 17px;
+    margin: 20px 0;
+    padding-left: 35px;
+  }
+
+  .list-example-cnt {
+    h4 {
+      margin-bottom: 15px;
+    }
+    .link-list {
+      a {
+        font-size: 15px;
+      }
+    }
+  } 
+
+  /*=====================================list-example-media-end=======================================*/
+  /*=====================================contact-details-media-start=======================================*/
+  .contacts {
+    ul {
+      li {
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .member-block {
+    width: 100%;
+  }
+
+  /*=====================================contact-details-media-end=======================================*/
+  /*=======================================Catalog-media-start=================================================*/
+  .catalog-cnt {
+    padding: 20px 0;
+  }
+
+  .products {
+    margin: 20px 0 10px 0;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .product-type-main {
+    padding: 20px 8px;
+  }
+
+  .product-type-left-part {
+    width: 100%;
+  }
+
+  .product-type-right-part {
+    display: none;
+  }
+
+  .contacts-for-order {
+    padding: 10px;
+  }
+
+  .registration {
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 5px;
+  }
+
+  .registration-input,
+  .attach,
+  .about-cost {
+    width: 100%;
+  }
+
+  .information {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  .products {
+    .product-type {
+      &:last-child {
+        height: 440px;
+      }
+    }
+  }
+
+  .about-CEO-text {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+
+    p {
+      font-size: 13px;
+    }
+  }
+
+  .text-part-left {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  /*=======================================Catalog-media-end=================================================*/
+  /*=====================================Production-media-start===============================================*/
+  .production-img {
+    height: 280px;
+  }
+
+  .production-information-text {
+    margin-top: 15px;
+
+    .title {
+      font-size: 20px;
+    }
+  }
+
+  .quality {
+    margin: 15px 0;
+  }
+
+  .production-cnt {
+    .small-title {
+      h5 {
+        font-size: 15px;
+      }
+    }
+
+    .quote {
+      margin-top: 25px;
+    }
+  }
+
+  .production-list {
+    h4 {
+      margin: 20px 0 15px 0;
+    }
+  }
+
+  .production-types {
+    .list-block {
+      p {
+        &::before {
+          top: 10%;
+        }
+      }
+    }
+  }
+
+  .production-types {
+    .list-block {
+      p {
+        padding-left: 25px;
+      }
+    }
+  }
+
+  .list {
+    ul {
+      li {
+        h6 {
+          padding-left: 25px;
+        }
+
+        p {
+          padding-left: 25px;
+        }
+      }
+    }
+  }
+
+  .production-right-part {
+    .link-list {
+      a {
+        .link-block {
+          height: 60px;
+        }
+      }
+    }
+  }
+
+  /*======================================Production-media-end================================================*/
+  /*====================================about-company-media-start=========================================*/
+  .about-company-slider-part {
+    text-align: center;
+
+    p {
+      font-size: 13px;
+    }
+  }
+
+  .about-company-cnt {
+    h3 {
+      font-size: 24px;
+    }
+  }
+
+  .company-photo-block {
+    p {
+      font-size: 11px;
+    }
+  }
+
+  .advantage-img {
+    .advantage-photo {
+      margin-left: 0;
+    }
+
+    strong {
+      font-size: 13px;
+    }
+  }
+
+  .advantage-text {
+    p {
+      font-size: 12px;
+    }
+  }
+
+  .big-advantage {
+    p {
+      font-size: 60px;
+
+      span {
+        font-size: 17px;
+      }
+
+      .company-description {
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .company-description-left-part,
+  .company-description-right-part {
+    text-align: center;
+  }
+
+  .company-description {
+    p {
+      font-size: 13px;
+    }
+  }
+
+  .presentation-video {
+    i {
+      font-size: 15px;
+    }
+  }
+
+  /*====================================about-company-media-end=========================================*/
+  /*====================================partners-media-start=========================================*/
+  .partner-block {
+    border-left: unset;
+  }
+
+  .partners-about {
+    p {
+      font-size: 13px;
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+
+  /*====================================partners-media-end=========================================*/
+  /*====================================team-photo-media-start=========================================*/
+  .team-photo {
+    display: none;
+  }
+
+  /*====================================team-photo-media-end=========================================*/
+  /*====================================leave-contacts-media-start=========================================*/
+  .leave-contacts-cnt {
+    &::before {
+      display: none;
+    }
+  }
+
+  .contact-input {
+    width: 100%;
+  }
+
+  /*====================================leave-contacts-media-end===========================================*/
+  .event-block {
+    max-width: 100%;
+  }
+
+  .leave-contacts {
+    margin-top: 0;
+  }
+
+  /*====================================note-recommend-media-start=========================================*/
+  .note-recommend-cnt {
+    h4 {
+      text-align: left;
+    }
+
+    .production-right-part {
+      .link-list {
+        a {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  /*====================================note-recommend-media-end=========================================*/
+}

@@ -1,0 +1,189 @@
+/*====================================Catalog-style-start====================================*/
+.catalog-cnt {
+  padding: 60px 0 80px 0;
+}
+
+.products {
+  margin: 45px -15px 90px -15px;
+}
+
+.product-type {
+  @include wh(50%, 340px);
+  padding: 15px;
+}
+
+.product-type-main {
+  @include wh100;
+  padding: 45px 50px;
+  border: 1px solid rgb(236, 239, 241);
+  background-color: rgb(250, 250, 250);
+  &:hover {
+    background-color: #ffffff;
+  }
+}
+
+.product-type-left-part {
+  width: 60%;
+}
+
+.types {
+  ul {
+    li {
+      padding-bottom: 15px;
+      cursor: pointer;
+      a {
+        @include fontOpenSans(14px, "OpenSans");
+        color: rgb(33, 33, 33);
+        position: relative;
+      }
+      &:first-child {
+        a {
+          @include fontFutura(20px, 600);
+          color: $staticColor;
+          border-bottom: 1px solid $staticColor;
+          margin-bottom: 15px;
+        }
+      }
+    }
+    li + li {
+      a {
+        &::before {
+          content: "";
+          position: absolute;
+          @include wh(0, 1px);
+          left: 50%;
+          bottom: 0;
+          transform: translateX(-50%);
+          transition: 0.3s;
+          background-color: $staticColor;
+        }
+      }
+      &:hover a {
+        color: $staticColor;
+        &::before {
+          width: 100%;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+
+.product-type-right-part {
+  width: 40%;
+}
+
+.product-picture {
+  @include wh(250px, 195px);
+  position: relative;
+}
+
+.contacts-for-order {
+  @include wh100;
+  border: 10px solid rgb(236, 239, 241);
+  background-color: rgb(255, 255, 255);
+  padding: 20px 40px 30px 40px;
+}
+
+.contacts-title {
+  @include fontFutura(20px, 600);
+}
+
+.registration {
+  width: 100%;
+  margin: 15px -5px 0 -5px;
+}
+
+.registration-input {
+  width: 50%;
+  padding: 5px;
+  input {
+    @include fontOpenSans(14px, "OpenSans-Bold");
+    border: 1px solid rgb(236, 239, 241);
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 58px;
+    padding-left: 30px;
+  }
+}
+
+.attach {
+  width: 50%;
+  padding: 5px;
+  input {
+    display: none;
+  }
+}
+
+.close {
+  position: relative;
+  &::after {
+    content: "\00d7";
+    position: absolute;
+    font-size: 22px;
+    color: #f66c61;
+    top: -5px;
+    right: 0;
+  }
+}
+
+.attach-order {
+  @include fontOpenSans(14px, "OpenSans");
+  position: relative;
+  margin-bottom: 8px;
+  padding-left: 25px;
+  cursor: pointer;
+  svg {
+    @include wh(15px, 20px);
+    fill: $staticColor;
+    position: absolute;
+    left: 0;
+  }
+  &:first-child {
+    p {
+      text-decoration: underline;
+    }
+  }
+  &:last-child {
+    p {
+      color: #90a4ae;
+    }
+  }
+}
+
+.about-cost {
+  width: 50%;
+  padding: 5px;
+  button {
+    @include fontOpenSans(14px, "OpenSans-Bold");
+    width: 100%;
+    padding: 25px 0;
+    color: rgb(255, 255, 255);
+    background-color: $staticColor;
+  }
+}
+
+.information {
+  width: 50%;
+  padding: 5px 5px 0 30px;
+  p {
+    @include fontOpenSans(13px, "OpenSans");
+  }
+  span {
+    text-decoration: underline;
+  }
+}
+
+.about-CEO-text {
+  margin-top: 40px;
+  p {
+    @include fontOpenSans(14px, "OpenSans");
+    line-height: 1.8;
+  }
+}
+
+.text-part-left {
+  margin-right: 50px;
+}
+
+/*=====================================Catalog-style-end=====================================*/
